@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rest countries API</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+ 
+  <div class="containerSearch">
+    <div class="searchBox">
+      <i class="fas fa-search"></i>
+      <input type="text" name="searchInput" id="searchInput" value="" placeholder="Search for a country" />
+    </div>
+    <div class="filterBox">
+      <div class="filterSelect">Filter by Region<button><i class="fas fa-chevron-down"></i></button>
+      </div>
+      <div class="filterOptions">
+        <p class="option">None</p>
+        <p class="option">Africa</p>
+        <p class="option">Americas</p>
+        <p class="option">Asia</p>
+        <p class="option">Europe</p>
+        <p class="option">Oceania</p>
+        <p class="option">Polar</p>
+      </div>
+     </div>
+
+    
+  </div>
+  <div class="container" id="countryDataContainer">
+  </div>
+  <script src="main.js"></script>
+
+</body>
+
+</html>

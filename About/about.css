@@ -1,0 +1,86 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  font-size: 18px; 
+  background-color:ivory; 
+ 
+  }
+
+img {
+  width: 100%;
+} 
+
+ .container {
+  width: 90vw;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+} 
+
+.container .backButton{
+  align-self: flex-start;
+  padding: 1.5rem 0;
+} 
+
+.mainSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+} 
+.mainSection section {
+  width: 100%;
+}
+  .mainSection section {
+    width: 50%;
+  }
+
+section.left{
+  margin-bottom:2rem; 
+  
+}
+section.right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-left: 2.5rem;
+}
+
+
+.mainSection main {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+ .mainSection main div {
+  width: 100%;
+}
+
+ .mainSection main div {
+    width: 47%;
+  }   
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.btnContainer .btnFill{
+  min-width: 32%;
+}
+ 

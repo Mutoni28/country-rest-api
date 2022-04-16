@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Country Project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="about.css"> 
+
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navContainer">
+      <div>
+
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <section class="backButton">
+      <button class="btnFill" onclick="previousPage()">Back</button>
+    </section>
+    <section class="mainSection">
+      <section class="left">
+        <img id="flag" src="" alt="" />
+      </section>
+      <section class="right">
+        <header>
+          <h1 id="name"></h1>
+        </header>
+        <main>
+          <div class="left">
+            <p>
+              <span class="label">Official Name: </span><span class="labelValue" id="nativeName"></span>
+            </p>
+            <p>
+              <span class="label">Population: </span><span class="labelValue" id="population"></span>
+            </p>
+            <p>
+              <span class="label">Region: </span><span class="labelValue" id="region"></span>
+            </p>
+            <p>
+              <span class="label">Sub Region: </span><span class="labelValue" id="subRegion"></span>
+            </p>
+            <p>
+              <span class="label">Capital: </span><span class="labelValue" id="capital"></span>
+            </p>
+          </div>
+          <div class="right">
+            
+            <p>
+              <span class="label">Currencies: </span><span class="labelValue" id="currencies"></span>
+            </p>
+            <p>
+              <span class="label">Languages: </span><span class="labelValue" id="languages"></span>
+            </p>
+          </div>
+        </main>
+        <footer>
+          <p>
+            <h3 class="label">Border Countries: </h3><br><span class="btnContainer" id="borderCountries"></span>
+          </p>
+        </footer>
+      </section>
+    </section>
+  </div>
+
+  <script>
+    function previousPage() {
+      window.history.back();
+    }
+  </script>
+  <script src="./country.js"></script>
+ 
+</body>
+
+</html>
